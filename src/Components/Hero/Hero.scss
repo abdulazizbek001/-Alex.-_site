@@ -1,0 +1,62 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 114px;
+
+    h2 {
+        position: relative;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 200%;
+        letter-spacing: 0.62em;
+        color: #656d72;
+        margin-bottom: 16px;
+        margin-left: 32px;
+        text-transform: uppercase;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 11px;
+            left: -22px;
+            width: 16px;
+            height: 2px;
+            background: #d9d9d9;
+        }
+    }
+
+    h1 {
+        text-align: start;
+        font-weight: 700;
+        font-size: 44px;
+        color: #232e35;
+        margin-bottom: 32px;
+
+        span {
+            font-weight: 700;
+            font-size: 44px;
+            color: #7e74f1;
+        }
+    }
+
+    p {
+        width: 508px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: #232e35;
+        margin-bottom: 40px;
+    }
+    
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 0 32px;
+        justify-content: start;
+
+        li  {
+            padding: 0;
+        }
+    }
+}

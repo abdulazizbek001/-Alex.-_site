@@ -1,0 +1,106 @@
+.footer_title4 {
+    width: 150px;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.62em;
+    color: #656d72;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 11px;
+        left: -12px;
+        width: 16px;
+        height: 2px;
+        background: #d9d9d9;
+    }
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #232e35;
+    margin-bottom: 144px;
+}
+
+.footer_list {
+    display: flex;
+    list-style: none;
+    gap: 0 56px;
+
+    li {
+        padding: 0;
+        border-bottom: 1px solid #f5f5f5;
+        border-left: 1px solid #f5f5f5;
+        border-right: 1px solid #f5f5f5;
+        border-radius: 0 0 8px 8px;
+        width: 361px;
+        background: #fff;
+        margin-bottom: 145px;
+
+        img {
+            object-fit: cover;
+        }
+
+        .footerimg3 {
+            object-fit: cover;
+            object-position: 0 2px;
+            border-radius: 8px 8px 0 0;
+            height: 292px;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 94px;
+
+            button {
+                border: 1px solid #f1f1f1;
+                border-radius: 4px;
+                padding: 4px 8px;
+                background: transparent;
+                font-weight: 500;
+                font-size: 12px;
+                color: #656d72;
+            }
+
+            img {
+                display: inline;
+                margin: 0;
+                margin-left: -70px;
+                margin-bottom: 0;
+            }
+        }
+
+    }
+
+    .footer_title {
+        font-weight: 500;
+        font-size: 16px;
+        color: #232e35;
+        margin-bottom: 16px;
+    }
+}
+
+.footer_links-list {
+    gap: 0 34px;
+    margin-bottom: 26px;
+
+    li {
+        padding: 0;
+    }
+}
+
+.footer_bottom-text {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #656d72;
+    margin-bottom: 90px;
+}
